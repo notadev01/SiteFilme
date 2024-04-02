@@ -1,0 +1,24 @@
+@use 'variaveis';
+
+.screenshots {
+    padding: 2vw 5.6vw;
+    min-height: 50vw;
+
+    &__list {
+        margin-top: 44px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 24px;
+        
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr;
+        }
+
+        &__item {
+            img {
+                width: 100%;
+                border-radius: 4px;
+            }
+        }
+    }
+}
