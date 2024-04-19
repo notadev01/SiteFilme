@@ -1,7 +1,7 @@
 @use 'variaveis';
 
 .hero {
-    background-image: url(../../assets/images/hero.jpeg);
+    background-image: url(../images/hero.jpeg);
     padding: 5.6vw;
     min-height: 100vh;
     text-align: center;
@@ -11,7 +11,7 @@
     justify-content: center;
 
     @media (max-width: 768px) {
-        background-image: url(../../assets/images/hero_celular.jpg);
+        background-image: url(../images/hero_celular.jpg);
         padding-top: calc(50vw + 25px);
         background-size: contain;
         background-repeat: no-repeat;
